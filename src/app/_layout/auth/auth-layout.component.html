@@ -1,0 +1,15 @@
+<main [@routeAnimations]="prepareRoute(outlet)">
+  <div class="auth-container">
+
+    <div role="banner" aria-roledescription="banner image of doctor and patient" class="backdrop-image doctor animate-animated " [ngClass]="router.url === '/signup' ?'animate-fadeIn':'animate-fadeOut'" ></div>
+    <div role="banner" aria-roledescription="banner image of doctor smiling on video call" class="backdrop-image patient animate-animated"[ngClass]="router.url === '/login' ?'animate-fadeIn':'animate-fadeOut'"></div>
+    <section class="section-route-group signup-section">
+      <!-- <div *ngIf="router.url === '/signup'">
+          show specific banner
+      </div> -->
+      <router-outlet #outlet="outlet"></router-outlet>
+    </section>
+  </div>
+
+
+  </main>

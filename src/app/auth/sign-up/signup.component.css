@@ -1,0 +1,21 @@
+.signup-segment .sign-up-as-buttons-container {
+  width: 100%;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 4.4rem;
+  bottom: 0;
+  text-align: center;
+  background-color: #fff;
+  z-index: 3;
+}
+
+.signup-segment .sign-up-as-buttons-container button {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  transition: .3s;
+  /* background-color: #fff; */
+  margin-bottom: .75rem;
+  margin-top: .5rem;
+  width: 16rem;
+}

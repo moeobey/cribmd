@@ -1,0 +1,120 @@
+
+.faq-container>section{
+  margin-bottom: 4rem;
+  width: 100%;
+}
+.faq-container .initial-content {
+  background: #1154b7;
+  padding: 100px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.caption-lg{
+    font-size: 3.5em!important;
+    color: #fff;
+    line-height: 1em;
+    text-align: center;
+    font-weight: 900;
+    font-family: Poppins,sans-serif;
+
+}
+.get-help-card {
+  width: 100%;
+  height: 130px;
+  border-radius: .5rem;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  -webkit-animation: all 2s ease-in-out;
+  animation: all 2s ease-in-out;
+}
+.get-help-card fa-icon {
+  font-size: 2em;
+  color: #CCCCCC;
+}
+.get-help-card:active,
+ .get-help-card:focus,
+ .get-help-card:hover {
+  border: 2px solid #1971F5;
+  color: #1971F5 ;
+}
+.get-help-card:active .title,
+ .get-help-card:active fa-icon,
+  .get-help-card:focus .title,
+   .get-help-card:focus fa-icon,
+    .get-help-card:hover .title,
+     .get-help-card:hover fa-icon {
+  color: #1971F5 !important
+}
+.faq-content {
+  background: rgba(115,116,118,.1);
+  height: 280px;
+  overflow: hidden;
+  border-radius: .5rem;
+}
+.faq-main-container {
+  margin-top: 5em;
+  display: flex;
+  border-radius: .5rem;
+  align-items: flex-start;
+}
+.call-to-action{
+  margin: 3rem 0 5rem 5rem;
+}
+.accordion-flush .accordion-item {
+  border-top: 0;
+  border-bottom: 0;
+  background-color: #F6F0F0;
+  border-radius: .5rem;
+}
+.accordion-header {
+  /* background-color: #1971F5; */
+  border-radius: .5rem;
+ margin-bottom: 1rem;
+}
+.accordion-flush .accordion-item .accordion-button {
+  color: white;
+  background: #F6F0F0;
+  font-weight: 200;
+  /* border-radius: .5rem; */
+
+}
+.accordion-item p {
+  margin-top: 1rem;
+  font-weight: 500;
+}
+.accordion-flush .accordion-item .accordion-button.collapsed{
+  background: #1971F5;
+  padding: 1rem;
+  color: white;
+}
+.accordion-button:not(.collapsed) {
+  color: white;
+  background-color: #e7f1ff;
+  box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+
+.accordion-flush .accordion-item .accordion-button {
+  color: #222;
+  padding: 1rem;
+
+  background: #F6F0F0;
+  font-weight: 200;
+  border-radius: .5rem;
+}
+.accordion-button::after {
+  width: 1rem;
+  height: 1rem;
+  background-size: 1rem;
+
+
+
+  /* background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z> ... </svg>"); */
+}
+.accordion-body {
+  padding: 1rem 1.25rem;
+  line-height: 2rem;
+}

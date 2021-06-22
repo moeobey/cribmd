@@ -1,0 +1,32 @@
+<nav class="navbar navbar-expand-md navbar-static-top nav-header container">
+    <a href="" class="navbar-brand">
+    <app-logo></app-logo>
+    </a>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mx-auto mb-2 mb-md-0">
+        <li class="nav-item">
+          <a [routerLinkActive]="['link-active']" [routerLink]="['/']"  [routerLinkActiveOptions]="{exact:true}" class="nav-link" aria-current="page">Home</a>
+        </li>
+        <li class="nav-item">
+          <a [routerLinkActive]="['link-active']"[routerLink]="['/about']" class="nav-link" aria-current="page"> About us</a>
+        </li>
+        <li class="nav-item">
+          <a [routerLinkActive]="['link-active']"[routerLink]="['/individual']"  class="nav-link" aria-current="page">Individual Plan</a>
+        </li>
+        <li class="nav-item">
+          <a [routerLinkActive]="['link-active']"[routerLink]="['/corporate']"  class="nav-link" aria-current="page">Corporate Plan</a>
+        </li>
+        <li class="nav-item">
+          <a [routerLinkActive]="['link-active']"[routerLink]="['/faq']" class="nav-link" aria-current="page">FAQ</a>
+        </li>
+        <li class="nav-item">
+          <a [routerLinkActive]='["link-active"]' routerlink='/signup'  href="/signup" class="nav-link sginup-nav">
+            Sign Up
+          </a>
+          <a [routerLinkActive]='["link-active"]' routerlink='/login' href="/login" class="nav-link login-nav">
+            Login
+          </a>
+        </li>
+      </ul>
+    </div>
+</nav>

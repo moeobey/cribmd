@@ -1,0 +1,205 @@
+
+.about-us-container .animation{
+  position: absolute;
+  top: 64px;
+  max-height: 4200px;
+  width: 100%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  overflow: hidden;
+  z-index: 0;
+}
+
+
+.about-us-container .animation img{
+-webkit-animation-duration: 10s;
+animation-duration: 10s;
+width: 100%;
+height: 100%;
+opacity: .8;
+-o-object-fit: cover;
+object-fit: cover;
+}
+.about-us-container>section {
+  margin: 6rem auto;
+  width: 100%;
+
+}
+.caption-lg {
+  font-size: 5em;
+  line-height: 1em;
+  text-align: center;
+  font-weight: 900;
+  font-family: Poppins,sans-serif;
+}
+.about-us-container.initial-content{
+  padding: unset;
+  margin: 7rem auto;
+  position: relative;
+}
+.about-us-container section.goals{
+  overflow: unset;
+}
+.about-us-container .goals .our-mission img{
+  border-radius: 2rem 50% 50%;
+}
+.about-us-container .goals .our-vision img{
+  border-radius: 50% 2rem 50% 50%;
+}
+
+.about-us-container section.goals img{
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+
+}
+
+.about-us-container section.goals .details .detail {
+  display: flex;
+  margin-top: 5px;
+  align-items: center;
+}
+.about-us-container .caption-md{
+    font-weight: 900;
+    font-size: 3em;
+    line-height: 1.1em;
+    font-family: Poppins!important;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.about-us-container .caption-sm{
+  color: #000;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  font-family: Lato;
+}
+.statistics {
+
+  flex-direction: column;
+}
+.statistics, .statistics-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.statistics-icon {
+  background: rgb(25,113,245);
+  border-radius: 50%;
+  width: 8em;
+  height: 8em;
+}
+.statistics-icon fa-icon{
+  font-size: 3em;
+  color: #fff;
+}
+.statistics-title{
+  margin-top: 20px;
+}
+.statistics-caption{
+  margin-top: -5px;
+  font-size: 1.2em;
+  font-weight: 700;
+  font-family: Lato!important;
+}
+.statistics-details{
+  text-align: center;
+    color: #000;
+}
+.our-team{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.our-team>figure>img{
+  height: 240px;
+    width: 240px;
+    -o-object-position: center;
+    object-position: center;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.our-team-content{
+  text-align: center;
+}
+.visit-profile{
+  color: green;
+  font-size: 11px;
+}
+.our-team h3{
+  font-weight: bolder;
+    font-size: 1.25rem;
+}
+
+.caption-xs{
+  color: #000;
+  font-size: 1.2em;
+  line-height: 1.2em;
+}
+.our-team-content {
+  text-align: center;
+}
+/* parters sector */
+.partners .partner {
+  height: 6rem;
+  perspective: 14rem;
+}
+.partners .partner img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+  object-fit: contain;
+  -o-object-position: center;
+  object-position: center;
+  transition: filter .3s ease-out;
+  filter: grayscale(1);
+}
+.partners .partner:hover img {
+  transition: filter .3s ease-out;
+  filter: grayscale(0);
+}
+/* investors section */
+.investors{
+  margin-top:4rem ;
+}
+.investors span img{
+  border-radius: 0;
+  filter: grayscale(1);
+}
+.investors img,.investors img{
+  height: 3.5rem;
+  object-fit: contain;
+  max-width: 8.5rem;
+}
+.investors span img:hover {
+  filter: grayscale(0);
+}
+.investors img {
+  height: 5rem;
+}
+/* cta section */
+.cta-section .container .cta-poster {
+  position: absolute;
+  bottom: 0;
+  right: -25px;
+  width: 170px;
+  height: 200px;
+}
+.cta-poster, .cta-poster img {
+  -o-object-fit: cover;
+  object-fit: cover;
+  width: 100%;
+  border-radius: 10px;
+}
+.cta-section .container {
+  background: rgba(158,172,229,.12)!important;
+  padding: 40px 50px;
+  z-index: 100;
+  overflow: hidden;
+  border-radius: 5px;
+  position: relative;
+}
