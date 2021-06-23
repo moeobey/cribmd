@@ -1,0 +1,15 @@
+.login-segment .login-form{
+  padding:2rem 4rem;
+}
+.login-segment .login-form .form-group{
+  color:grey;
+}
+
+.login-segment .login-form .form-control{
+  padding: 1rem;
+  border-radius: .5rem;
+  background-color: #F1F1F1;
+}
+.login-segment .login-form fa-icon{
+  margin-right: 5px;
+}

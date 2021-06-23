@@ -1,4 +1,4 @@
-
+/*
 .about-us-container .animation{
   position: absolute;
   top: 64px;
@@ -20,7 +20,7 @@ height: 100%;
 opacity: .8;
 -o-object-fit: cover;
 object-fit: cover;
-}
+} */
 .about-us-container>section {
   margin: 6rem auto;
   width: 100%;

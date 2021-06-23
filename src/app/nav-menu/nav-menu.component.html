@@ -1,9 +1,16 @@
 <nav class="navbar navbar-expand-md navbar-static-top nav-header container">
+
+
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <fa-icon [icon]="['fas', 'align-left']"></fa-icon>
+  </button>
+
     <a href="" class="navbar-brand">
     <app-logo></app-logo>
     </a>
-    <div class="collapse navbar-collapse" id="navbarCollapse">
-      <ul class="navbar-nav mx-auto mb-2 mb-md-0">
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto mb-2 mb-md-0 ">
         <li class="nav-item">
           <a [routerLinkActive]="['link-active']" [routerLink]="['/']"  [routerLinkActiveOptions]="{exact:true}" class="nav-link" aria-current="page">Home</a>
         </li>

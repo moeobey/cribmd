@@ -78,7 +78,7 @@
         <h1>The digital health consultation platform just for you</h1>
         <p class="description">Skip the waiting room and instantly connect with
           verified medical practitioners for quality healthcare 24/7.</p>
-        <a href='/' class="large-btn cta-btn text-bold">Find a doctor</a>
+        <a href='/signup' class="large-btn cta-btn text-bold">Find a doctor</a>
       </div>
       <div class="col-md-6 d-none d-md-flex justify-content-center">
         <div class="initial-content-img">
@@ -209,7 +209,7 @@
       </div>
 
       <div class="col-12 text-center">
-        <a class="btn btn-primary cta-btn text-bold ">
+        <a href='/signup' class="btn btn-primary cta-btn text-bold ">
           Book a Doctor
         </a>
       </div>
@@ -245,7 +245,7 @@
               </div>
             </div>
             <div class="py-2">
-              <a class="btn btn-primary cta-btn text-bold ">
+              <a href='/signup' class="btn btn-primary cta-btn text-bold ">
                 Get Started
               </a>
             </div>
@@ -273,7 +273,7 @@
             </div>
           </div>
           <div class="py-2">
-            <a class="btn btn-primary cta-btn text-bold ">
+            <a href='/signup' class="btn btn-primary cta-btn text-bold ">
               Join Now
             </a>
           </div>
@@ -310,7 +310,7 @@
             </div>
           </div>
           <div class="py-2">
-            <a class="btn btn-primary cta-btn text-bold ">
+            <a href='/signup' class="btn btn-primary cta-btn text-bold ">
               Get Prescriptions
             </a>
           </div>
@@ -326,7 +326,7 @@
           </h3>
           <p>With as low as N3,000/month, get the best healthcare plan designed to suit your needs 24/7 at your
             comfort-zone.</p>
-          <a class="cta-btn btn btn-primary text-bold"> Sign Up Now</a>
+          <a href='/signup' class="cta-btn btn btn-primary text-bold"> Sign Up Now</a>
 
         </div>
 
@@ -344,7 +344,7 @@
             chat with any of our licensed doctors.</p>
           <div class="app-store-icons">
             <div class="app-icon">
-              <a target="_blank" href="https://play.google.com/store/apps/details?id=cribmd.com.CribMD">
+              <a  target="_blank" href="https://play.google.com/store/apps/details?id=cribmd.com.CribMD">
                 <img src="assets/images/app-store-imgs/google-play.png" alt="img description">
               </a>
             </div>
@@ -436,10 +436,10 @@
         <div class="row justify-content-center news-carousel">
           <owl-carousel-o [options]="customOptions">
             <ng-template carouselSlide *ngFor="let slide of news_slides">
-              <div class="p-3">
+              <div class="p-3 w-100 h-100">
                 <div class="card">
                   <img src="{{slide.image_link}}">
-                  <a href="{{slide.url}}">
+                  <a href="{{slide.url}}" class="d-block">
                     <h5 class="color-black">{{slide.outlet}}</h5>
                     <p class="mt-2 color-black">{{slide.content}}</p>
                   </a>

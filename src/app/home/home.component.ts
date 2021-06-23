@@ -65,18 +65,29 @@ news_slides = [
     isVideo:false
   },
   {
-    image_link:"assets/images/reviews/chris-benjamin.webp",
-    content:"Nigerian Healthtech Startup, CribMD Secures $2.6m Funding For Product Growth & Expansion",
-    url:"https://www.techawkng.com/2021/05/26/nigerian-healthtech-startup-cribmd-secures-2-6m-funding-for-product-expansion/amp/?__twitter_impression=true",
-    outlet:"Techawk"
+    image_link:"assets/images/news/spotify-logo.webp",
+    content:" CribMD: Nigerian-founded telemedicine health tech startup.......... ",
+    url:"https://open.spotify.com/episode/3siOszsgWp1QjCrf28sMY6?si=rH_dRWntTWmalAIyZ2QOGQ&utm_source=copy-link&dl_branch=1&nd=1",
+    outlet:"Spotify"
   },
   {
-    image_link:"assets/images/reviews/chris-benjamin.webp",
-    content:"Nigerian Healthtech Startup, CribMD Secures $2.6m Funding For Product Growth & Expansion",
-    url:"https://www.techawkng.com/2021/05/26/nigerian-healthtech-startup-cribmd-secures-2-6m-funding-for-product-expansion/amp/?__twitter_impression=true",
-    outlet:"Techawk"
+    image_link:"assets/images/news/techpoint-logo.webp",
+    content:" UPDATED: Nigerian healthtech startup, CribMD, closes $2.6m seed round for product  expansion ",
+    url:"https://techpoint.africa/2021/05/26/nigerian-startup-cribmd-2-6m-seed/",
+    outlet:"Techpoint Africa"
   },
-
+  {
+    image_link:"assets/images/news/ventures-logo.webp",
+    content:" TELEMEDICINE AND HEALTH TECH STARTUPS LIKE CRIBMD ARE THE FUTURE’- IFEANYI OSSAI ",
+    url:"https://finance.yahoo.com/sputnik-atx-austin-based-venture-140000273.html",
+    outlet:"Ventures Afric."
+  },
+  {
+    image_link:"assets/images/news/yahoo-finance-logo.webp",
+    content:"  Sputnik ATX, Austin-Based Venture Capital Fund and Accelerator, Selects Its Winter 2021 Cohort ",
+    url:"https://www.inc.com/profile/CribMD",
+    outlet:"Yahoo! Finance"
+  }
 ]
 links = [
   {url:"assets/images/partners/partner_1.webp"},

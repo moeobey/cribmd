@@ -22,6 +22,7 @@ import { CarouselModule } from 'ngx-owl-carousel-o';
 import { faCapsules, faBaby, faStethoscope, faFemale, faEyeDropper,
   faTooth, faTint, faHeartbeat, faBriefcaseMedical, faVideo, faPills,
   faShieldAlt, faMapMarkerAlt, faPhoneAlt, faUser, faDollarSign, faHome,
+  faEnvelope, faLock, faPaperPlane, faAlignLeft,
    faTimes, faCheck, faFlag, faMoneyBill, faHospital  } from '@fortawesome/free-solid-svg-icons';
 import { faFacebookF, faTwitter,  faLinkedinIn, faInstagram, faYoutube} from '@fortawesome/free-brands-svg-icons'
 import { FooterComponent } from './footer/footer.component';
@@ -67,7 +68,7 @@ export class AppModule {
   constructor(private library: FaIconLibrary) {
     library.addIcons(faCapsules, faBaby, faStethoscope, faFemale, faEyeDropper, faTooth, faTint,
       faHeartbeat,faBriefcaseMedical, faVideo, faPills, faShieldAlt, faFacebookF, faTwitter, faLinkedinIn,
-       faInstagram, faYoutube,faMoneyBill, faHospital, faMapMarkerAlt,faFlag, faPhoneAlt, faCheck, faUser,faTimes, faDollarSign, faHome);
+       faInstagram, faYoutube,faMoneyBill, faHospital, faMapMarkerAlt,faFlag, faPhoneAlt, faCheck, faUser,faTimes,faAlignLeft, faDollarSign,faEnvelope, faLock,faPaperPlane, faHome);
   }
 
 }
